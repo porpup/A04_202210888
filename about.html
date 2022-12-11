@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+	Name: Oleksandr Shyryayev
+	Date: June-14-2022
+-->
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About Us</title>
+	<!-- Animate CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+		integrity="sha512-YTL2qFiv2wZNnC764l1DD5zN6lYxDzJ89Ss6zj6YoYIzr6+zwjdVKM1sUR+971X3h7qWCa9cPUBXyYqhOqWWLQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="container">
+				<ul>
+					<li><a href="#" class="btn">BIKES</a></li>
+					<li><a href="https://www.bestbuy.ca/en-ca/search?search=bicycles" class="btn">BEST BUY</a></li>
+					<li><a href="index.html" class="btn">OFFERS</a></li>
+					<li><a href="#" class="btn">ACCESSORIES</a></li>
+					<li><a href="contact.html" class="btn">CONTACT</a></li>
+					<li><a href="about.html" class="btn">ABOUT US</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<section class="main">
+		<div>
+			<img id="lead-banner" src="./media/lead-banner.jpg">
+		</div>
+		<div class="container animated bounceInRight">
+			<form class="contact_form" action="index1.html">
+				<h2>Quick Contact</h2>
+				<h4>Contact us today, and get reply with in 24 hours!</h4>
+				<div class="box">
+					<div id="name">
+						<input type="text2" placeholder="Your Name">
+					</div>
+					<div id="email">
+						<input type="email" placeholder="Your Email Address">
+					</div>
+					<div id="phone">
+						<input type="phone" placeholder="Your Phone Number" auto-slash maxlength="10"
+							oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1')">
+					</div>
+					<div id="website">
+						<input type="website" placeholder="Your Web Site starts with">
+					</div>
+					<div id="message">
+						<textarea rows="2" style="width: 190px" placeholder="Type your Message here...."></textarea>
+					</div>
+
+					<div class="btn3">
+						<input type="submit" value="Submit">
+					</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<img id="footer" src="./media/footer.jpg">
+		</div>
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+.container {
+	margin: auto;
+	overflow: hidden;
+}
+
+nav {
+	background-color: black;
+	color: white;
+	padding: 10px 12px;
+}
+
+nav ul {
+	padding: 0;
+	list-style: none;
+	text-align-last: right;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	padding-right: 18px;
+}
+
+.btn:hover {
+	padding: 10px 5px;
+	border-radius: 5px;
+	background-color: #8f746c;
+	color: white;
+}
+
+#lead-banner {
+	width: 100%;
+}
+
+#bike {
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.container {
+	text-align-last: center;
+}
+
+div h5 {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+div h1 {
+	font-family: Arial, sans-serif;
+	font-size: 47px;
+	margin: 0;
+}
+
+.btn2 {
+	font-size: 11px;
+	margin-top: 20px;
+	padding: 10px 15px;
+	background-color: #f4f4f4;
+	border-color: #8f746c;
+	color: #8f746c;
+	text-transform: uppercase;
+}
+
+.btn2:hover {
+	background-color: #8f746c;
+	color: white;
+}
+
+#stars {
+	display: block;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+
+#footer {
+	width: 100%;
+}
+
+#about_us {
+	text-align-last: center;
+}
+
+#text {
+	margin-top: 25px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.contact_form {
+	width: 50%;
+	margin: 20px auto;
+	background-color: #00ccff;
+}
+
+.box div {
+	margin-bottom: 10px;
+}
+
+::placeholder {
+	text-align-last: left;
+}
